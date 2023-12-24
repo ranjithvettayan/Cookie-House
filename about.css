@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.about-head{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background:url(./image/top-view-sweet-cookies-with-candies-grey-background-sugar-cookie-sweet-biscuit-cake-tea.jpg);
+    position:relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 90px);    
+}
+.about-head div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    width: 50%;
+    background-color: #ffffffa8;
+    padding-bottom: 10px;
+}
+.about-head div h2{
+    font-family:'Lato', sans-serif;
+    color:#fff;
+    letter-spacing:2px;
+    text-align:center;
+    line-height:1.3em;
+    font-weight:500;
+    font-size:40px;
+    /*margin-bottom:20px;*/
+    color: inherit;
+}
+.about-head div p{
+    font-family:'Lato', sans-serif;
+    color:#fff;
+    letter-spacing:2px;
+    text-align:center;
+    line-height:1.3em;
+    font-weight:500;
+    font-size:20px;
+    /*margin-bottom:20px;*/
+    color: inherit;
+}
+.about-head div button{
+    padding: 15px;
+   border-radius: 3em;
+  border-color: #916c59;
+  color: #fff;
+  background-image: linear-gradient(to right, rgba(130, 88, 66, 1), rgba(130, 88, 66, 1) 5%, #916c59 5%, #916c59 10%, rgba(130, 88, 66, 1) 10%, rgba(130, 88, 66, 1) 15%, #916c59 15%, #916c59 20%, rgba(130, 88, 66, 1) 20%, rgba(130, 88, 66, 1) 25%, #916c59 25%, #916c59 30%, rgba(130, 88, 66, 1) 30%, rgba(130, 88, 66, 1) 35%, #916c59 35%, #916c59 40%, rgba(130, 88, 66, 1) 40%, rgba(130, 88, 66, 1) 45%, #916c59 45%, #916c59 50%, rgba(130, 88, 66, 1) 50%, rgba(130, 88, 66, 1) 55%, #916c59 55%, #916c59 60%, rgba(130, 88, 66, 1) 60%, rgba(130, 88, 66, 1) 65%, #916c59 65%, #916c59 70%, rgba(130, 88, 66, 1) 70%, rgba(130, 88, 66, 1) 75%, #916c59 75%, #916c59 80%, rgba(130, 88, 66, 1) 80%, rgba(130, 88, 66, 1) 85%, #916c59 85%, #916c59 90%, rgba(130, 88, 66, 1) 90%, rgba(130, 88, 66, 1) 95%, #916c59 95%, #916c59 100%);
+  background-position: 0 0;
+  background-size: 100%;
+  transition: background 300ms ease-in-out;
+  font-size: 16px;
+    font-weight: 500;
+    
+}
+.about-head div button:hover {
+  background-position: 100px;
+}
+.about-head div button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.aboutsec{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background: url(./image/brown-concrete-wall-with-scratches-vector.jpg);
+    height: calc(120vh - 90px);    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.abosec1{
+    margin-top: 70px;
+display: flex;
+align-items: center;
+justify-content: center;
+align-content: center;
+justify-items: center;
+align-items: center;
+margin-left: 50px;
+margin-bottom: 80px;
+}
+.abosec1 img{
+   
+   height: 100%;
+    border-radius: 10px;
+    
+}
+.abosec1 p{
+    display: flex;
+    flex-wrap: wrap;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    font-family:'Lato', sans-serif;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.aboutsec2 {
+    display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(min(11.25rem, 100%),1fr));
+   grid-gap: 1rem;
+}
+.cookieabout{
+    display: flex;
+    width: 100%;
+    height: calc(120vh - 90px); 
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;   
+    background: url(./image/delicious-cookies-arrangement.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cookieabo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.cookieabo div{
+    align-content: center;
+justify-content: center;
+display: flex;
+align-items: center;
+margin-left: 50px;
+
+}
+.cookieabo div p{
+    display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-items: center;
+align-content: center;
+border: 1px solid #ffffff;
+border-radius: 5px;
+width: 100%;
+background-color: #ffffffa8;
+padding-left: 80px;
+padding-right: 80px;
+padding-top: 50px;
+padding-bottom: 50px;
+font-size: 25px;
+line-height: 30px;
+text-align: left;
+
+}
+.cookieabout img{
+    width: auto;
+height: auto;
+animation: bounce2 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    filter: drop-shadow(3px 3px 3px);
+  }
+  
+  @keyframes bounce2 {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
