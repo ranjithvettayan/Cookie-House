@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Fredoka+One);
+
+.headertype{
+    background: url(./image/dd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 90px);    
+}
+.headertype h1{
+    font-family: 'Fredoka One', cursive;
+    color:#602608;
+    text-align:center;
+    letter-spacing:3px;
+    font-size: 80px;
+    padding-top: 20px;
+    font-weight: 300;
+}
+
+.cookie-selection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch;
+    padding: 20px;
+    background-color: #32768a;
+  }
+  
+  .cookie {
+    width: 300px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* .cookie-img {
+    height: 150px; 
+    width: 100%; 
+    object-fit: cover;
+    border-radius: 8px 8px 0 0; 
+  } */
+  .cookie-img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+    transition: transform 0.3s ease;
+  }
+  
+  .cookie:hover .cookie-img {
+    transform: scale(1.1); /* Enlarge the image on hover */
+  }
+  .cookie h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .cookie p {
+    font-size: 1.1em;
+    color: #666;
+    flex-grow: 1;
+  }
+  
