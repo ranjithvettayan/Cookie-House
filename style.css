@@ -531,7 +531,6 @@ width: 100%;
   max-width: none;
   flex: none;
   width: 100%;
-	display:block !important;
 }
 .en{
   padding: 0;
@@ -616,7 +615,7 @@ justify-content: center;
   }
   .menu-item{
     max-width: none;
-    display: block !important;
+	  width:100%;
   }
 }
 
