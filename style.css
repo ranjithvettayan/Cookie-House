@@ -615,7 +615,7 @@ justify-content: center;
   }
   .menu-item{
     max-width: none;
-    display: block;
+    display: block !important;
   }
 }
 
