@@ -512,6 +512,7 @@ margin-bottom: 0 !important;
   }
   .image2 img{
     padding-left: 0;
+	  width:100%;
   }
   .sec1{
     display: flex;
@@ -524,7 +525,7 @@ margin-bottom: 0 !important;
 }
 .bounce2 {
   display: flex;
-width: inherit;
+width: 100%;
 }
 .menu-item{
   max-width: none;
