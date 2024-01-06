@@ -501,4 +501,14 @@
 .countdown a:hover {
     color: var(--primary-color);
 }
-
+@media only screen and (max-width: 770px) {
+    .best-seller {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: column;
+      }
+      .best-p1 {
+        width: 100%;
+    }  
+}
