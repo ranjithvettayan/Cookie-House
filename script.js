@@ -17,3 +17,7 @@ function filterItems(filterValue) {
     }
   });
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('year-current').textContent = new Date().getFullYear();
+});

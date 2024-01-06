@@ -13,7 +13,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: calc(100vh - 90px);    
+    height: 100%;    
 }
 .about-head div{
     display: flex;
@@ -76,10 +76,11 @@
     align-content: center;
     flex-wrap: wrap;
     background: url(./image/brown-concrete-wall-with-scratches-vector.jpg);
-    height: calc(120vh - 90px);    
+    height: 100%;    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 .abosec1{
     margin-top: 70px;
@@ -117,7 +118,8 @@ margin-bottom: 80px;
 .cookieabout{
     display: flex;
     width: 100%;
-    height: calc(120vh - 90px); 
+    height: 100%; 
+    position: relative;
     justify-content:center;
     align-items: center;
     align-content: center;
