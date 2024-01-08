@@ -67,6 +67,6 @@
     flex-grow: 1;
   }
 h1{
-    margin-bottom:0px
+    margin-bottom:0px !important;
 }
   
